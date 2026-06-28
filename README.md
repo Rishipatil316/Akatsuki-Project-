@@ -1,54 +1,40 @@
-# React + TypeScript + Vite
+# ☁️ Akatsuki Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Akatsuki Project is a modern, responsive web application inspired by the iconic Akatsuki organization from the Naruto universe. The project focuses on delivering an attractive user interface, responsive design, and smooth user experience using modern frontend development practices.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive Design
+- Modern & Clean UI
+- Smooth Navigation
+- Mobile Friendly
+- Fast Loading Performance
+- Interactive Components
+- Optimized for Different Screen Sizes
+- Deployed on Vercel
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- HTML5
+- CSS3
+- JavaScript
+- React.js (if used)
+- Tailwind CSS / Bootstrap (if used)
+- Vercel
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 Live Demo
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+https://akatsuki-project-dun.vercel.app
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📌 Purpose
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+This project was built to improve frontend development skills, practice responsive web design, and create an engaging anime-inspired user interface.
+
+## 📚 What I Learned
+
+- Component-based development
+- Responsive UI Design
+- State Management
+- Modern CSS Techniques
+- Website Deployment using Vercel
+- Performance Optimization
